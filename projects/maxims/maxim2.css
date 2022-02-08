@@ -1,0 +1,66 @@
+p {
+color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: #535fff;
+}
+
+href {
+    align-content: center;
+}
+
+body {
+    background: #5acdee url(boiling.jpeg) center center/cover repeat fixed;
+}
+
+p {
+    text-align: center;
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+div {
+    text-align: center;
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    animation: boils 4s ease 1s 1 normal forwards;
+    
+}
+
+@keyframes boils {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateX(-10px);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: translateX(10px);
+    }
+  
+    80% {
+      transform: translateX(8px);
+    }
+  
+    90% {
+      transform: translateX(-8px);
+    }
+  }
+
+  a:link, a:visited {
+    background-color: #00aeff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }

@@ -1,0 +1,78 @@
+body {
+	background: #000000;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #17044d;
+	position: relative;
+}
+
+/* modify the assets below */
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid rgb(255, 0, 212);
+	position: absolute;
+	top: 358px;
+	left: 470px;
+}
+
+
+#door {
+	width: 350px;
+	height: 60px;
+	background: rgb(179, 106, 77);
+	top: 500px;
+	left: 90px;
+	position: absolute;
+}
+
+#square {
+	width: 200px;
+	height: 350px;
+	background: rgb(34, 124, 22);
+	top: 205px;
+	left: 650px;
+	position: relative;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: rgb(243, 237, 149);
+	border-radius: 200px;
+	top: 40px;
+	left: 10px;
+	position: absolute;
+}
+
+
+#triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid rgb(255, 0, 0);
+	position: absolute;
+	top: 6px;
+	left: 650px;
+}
+
+
+#star {
+	width: 100px;
+	height: 100px;
+	background: rgb(243, 237, 149);
+	border-radius: 300px;
+	top: 100px;
+	left: 70px;
+	position: absolute;
+}
