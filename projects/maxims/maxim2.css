@@ -17,7 +17,7 @@ body {
 p {
     text-align: center;
     font-size: 150px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Bebas Neue', cursive;
 }
 
 div {
@@ -57,10 +57,11 @@ div {
   }
 
   a:link, a:visited {
-    background-color: #00aeff;
+    background-color: #7a0000;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    position:relative;bottom: 40px; left: 1300px;
   }

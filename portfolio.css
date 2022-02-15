@@ -1,0 +1,33 @@
+img {
+  border: 1px solid rgb(255, 0, 212);
+  border-radius: 2px;
+  padding: 5px;
+  width: 250px;
+  position: relative; top: -50px
+  ;
+}
+
+.header {
+  border:rgb(255, 0, 212) width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="FF69B4"
+}
+
+b {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.td {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.table {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 15pt;
+}
+
+.projects {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25 pt;
+  background-color: blueviolet;
+  align-items: center;
+}

@@ -20,6 +20,7 @@ p {
     font-size: 100pt;
    position:relative; left:0px; top:-250px;
    font-family: 'Twinkle Star', cursive;
+   text-shadow: 2px 2px #FF007F, 3px 3px #FF033E;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 body{
     padding:200px 0;
     background-color:rgb(255, 143, 204)
+    
   }
 
   h1 {
@@ -36,6 +38,7 @@ body{
       font-size: 100px;
       position:relative; left:0px; top:-325px;
       font-family: 'Twinkle Star', cursive;
+      text-shadow: 2px 2px #FF007F, 3px 3px #FF033E;
   }
   
   #heart {
@@ -109,3 +112,15 @@ body{
       transform: scale( .75 );
     }
   }
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position:relative; left: 1300px; top: -400px;
+  align-self:left
+  }
+  

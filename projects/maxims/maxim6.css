@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(14, 13, 73)
+    }
+
+
+p1 {
+font-size: 100pt;
+text-align: left;
+color:rgb(146, 109, 8)
+position; left: left 0px; top: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+
+
+style
+  body{
+  margin: 0;
+  padding: 0;
+}
+  
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+  
+
+ body, html {
+  background: linear-gradient(120deg, #FF007F, #FFC400);
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-family: "Sacramento";
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px #FF007F, 3px 3px #FF033E;
+  top: 35%;
+  animation-name: fall;
+  animation-duration: 6s;
+  animation-timing-function: infinite;
+}
+
+.sun-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sun {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #FFE5B4, #FFEB3B);
+  box-shadow: 4px 4px 40px 20px #eedd82, -4px -4px 40px 20px #eedd82;
+  animation-name: rise;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes rise {
+  0% {
+    top: 80%;
+    box-shadow: none;
+  }
+  100% {
+    top: 35%;
+    box-shadow: 4px 4px 40px 20px #eedd82, -4px -4px 40px 20px #eedd82;
+  }
+}
+
+@keyframes fall {
+  0% {
+    top: 15%;
+  }
+  100% {
+    top: 35%;
+  }
+}
+
+
+a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      align-self: right;
+      position:relative; left: 1300px; top: 400px;
+      }
+

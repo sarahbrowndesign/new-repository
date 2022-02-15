@@ -1,81 +1,76 @@
-p {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 100pt;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation: roll-in-left 2s linear 1s 1 normal forwards;
-display:inline-block
-}
-
-
-  
-
-p1 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 100pt;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    animation: bounce-out-bottom 3s linear 1.5s 1 normal forwards;
-    display:inline-block
-  }
-
 
 body {
-    background-color: rgb(61, 30, 82);
+  background-color: rgb(49, 79, 124);
 }
 
+div {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+ 
+}
 
-
-
-
-
- @keyframes roll-in-left {
-    0% {
-      transform: translateX(-800px) rotate(-540deg);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0) rotate(0deg);
-      opacity: 1;
-    }
-  }
+p {
+  text-align: center;
+  font-size: 100px;
+  animation: myAnim 3s ease 0s infinite normal forwards;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 2px #e7d809, 3px 3px #ffffff;
+}
   
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
 
-@keyframes bounce-out-bottom {
+h2 { 
+text-align: center;
+font-size: 120px;
+animation: myAnim 3s ease 0s infinite normal forwards;
+font-family: 'Bebas Neue', cursive;
+text-shadow: 2px 2px #e7d809, 3px 3px #ffffff;
+}
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position:relative;bottom: 180px; left: 1300px;
+  align-self: bottom right;
+  }
+
+ 
+  @keyframes myAnim {
     0% {
-      transform: translateY(0);
-      animation-timing-function: ease-out;
+      transform: scale3d(1, 1, 1);
     }
-    5% {
-      transform: translateY(30px);
-      animation-timing-function: ease-in;
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
     }
-    15% {
-      transform: translateY(0);
-      animation-timing-function: ease-out;
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
     }
-    25% {
-      transform: translateY(38px);
-      animation-timing-function: ease-in;
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
     }
-    38% {
-      transform: translateY(0);
-      animation-timing-function: ease-out;
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
     }
-    52% {
-      transform: translateY(75px);
-      animation-timing-function: ease-in;
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
     }
-    70% {
-      transform: translateY(0);
-      animation-timing-function: ease-out;
-    }
-    85% {
-      opacity: 1;
-    }
+  
     100% {
-      transform: translateY(800px);
-      opacity: 0;
+      transform: scale3d(1, 1, 1);
     }
   }
   
