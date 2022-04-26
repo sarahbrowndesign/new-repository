@@ -140,7 +140,7 @@
     padding: 0.5rem;
     box-shadow: 0 9px 11px rgba(0, 0, 0, 0.1);
     line-height: 1.5;
-    background-color: #adecff;
+    background-color: #15bdf0;
     color: #4a6163;
     border-radius: 10px;
     animation: bounceInRight 2s both;
@@ -150,7 +150,7 @@
 
 
   
-  @-webkit-keyframes bounceInRight {
+  @keyframes bounceInRight {
     0%,
     100%,
     60%,
@@ -460,7 +460,7 @@ a:hover {
   .download-btn span:hover:after {
     width: 100%;
   }
-  /* footer */
+ 
   footer {
     position: sticky;
     min-width: 100%;

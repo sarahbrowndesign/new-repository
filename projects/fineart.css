@@ -9,11 +9,14 @@ div.gallery {
   div.gallery img {
     width: 100%;
     height: auto;
+    position: relative;
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
+    font-size:25px;
+    background-color: aqua;
   }
   
   * {
@@ -22,8 +25,8 @@ div.gallery {
   
   .responsive {
     padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+    float: right;
+    width: 25%;
   }
   
   @media only screen and (max-width: 700px) {
@@ -36,6 +39,7 @@ div.gallery {
   @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
+
     }
   }
   
@@ -44,6 +48,9 @@ div.gallery {
     display: table;
     clear: both;
   }
+
+
+
   
   h2 {
     font-size: 100pt;
@@ -54,3 +61,4 @@ div.gallery {
       text-transform: uppercase;
       font: 75pt 'Spartan', sans-serif !important;
   }
+

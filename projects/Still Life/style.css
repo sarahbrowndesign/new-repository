@@ -2,7 +2,7 @@ body {
 	background: #000000;
 }
 
-/* do NOT modify the canvas */
+
 
 .canvas {
 	width: 900px;
@@ -12,7 +12,7 @@ body {
 	position: relative;
 }
 
-/* modify the assets below */
+
 
 #triangle {
 	width: 0;
@@ -76,3 +76,4 @@ body {
 	left: 70px;
 	position: absolute;
 }
+
